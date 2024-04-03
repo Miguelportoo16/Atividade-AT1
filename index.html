@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Salário Líquido</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Salário Líquido</h1>
+        <div id="input-form">
+            <label for="employee-name">Nome:</label>
+            <input type="text" id="employee-name">
+            <label for="gross-salary">Salário Bruto:</label>
+            <input type="number" id="gross-salary">
+            <label for="deductions">Descontos:</label>
+            <input type="number" id="deductions">
+            <label for="benefits">Benefícios:</label>
+            <input type="number" id="benefits">
+            <button onclick="addEmployee()">Adicionar Funcionário</button>
+        </div>
+        <div id="output"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
